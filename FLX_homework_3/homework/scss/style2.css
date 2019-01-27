@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Helvetica, sans-serif;
+  background: #fff; }
+
+header {
+  height: 100vh;
+  width: 100%;
+  background: url(../header_background_v1.jpg) no-repeat center/cover; }
+  header .top-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 200px; }
+    header .top-wraper .logo img {
+      width: 300px;
+      height: 200px;
+      float: left; }
+    header .top-wraper nav {
+      float: right;
+      margin-top: 100px;
+      width: 600px;
+      padding: 10px 0;
+      border-top: 1px solid #00acce;
+      border-bottom: 1px solid #00acce;
+      text-align: center;
+      word-spacing: 100px; }
+      header .top-wraper nav a {
+        color: #00acce;
+        text-transform: uppercase;
+        text-decoration: none; }
+        header .top-wraper nav a:hover {
+          color: #00acce; }
